@@ -1,13 +1,13 @@
 package com.narxoz.rpg.equipment;
 
-public class IronSword implements Weapon {
+public class Longbow implements Weapon {
     @Override
     public String getWeaponInfo() {
-        return "Iron Sword";
+        return "Longbow";
     }
 
     @Override
     public int getDamage() {
-        return 25;
+        return 30;
     }
 }
